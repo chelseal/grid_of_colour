@@ -1,0 +1,22 @@
+/* CSS variables for colour palette */
+:root {
+	--orange: #e44444;
+	--pink: #dcbcc4;
+	--yellow: #e4941c;
+	--mustard: #c48c44;
+	--green: #0c4c24;
+	--blue: #2c4c9c;
+	--navy: #0c2444;
+	--design-bg: #ece4dc;
+}
+
+body {
+	background-color: var(--pink);
+}
+
+section {
+	display: grid;
+	grid-template-columns: repeat(4, 0fr);
+	background-color: var(--design-bg);
+	padding: 150px;
+}
